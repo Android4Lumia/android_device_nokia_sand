@@ -217,4 +217,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/hostapd.deny:system/etc/hostapd/hostapd.deny
 
 # Vendor product configurations
-$(call inherit-product, vendor/nokia/zeal/zeal-vendor.mk)
+$(call inherit-product, vendor/nokia/sand/sand-vendor.mk)
