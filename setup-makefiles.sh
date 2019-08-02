@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-DEVICE=zeal
+DEVICE=sand
 VENDOR=nokia
 
 # Load extractutils and do some sanity checks
