@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(BOARD_VENDOR_PLATFORM),zeal)
+ifeq ($(BOARD_VENDOR_PLATFORM),sand)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
