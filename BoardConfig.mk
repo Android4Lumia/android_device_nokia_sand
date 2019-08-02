@@ -15,7 +15,7 @@
 #
 
 # Board device path
-DEVICE_PATH := device/nokia/zeal
+DEVICE_PATH := device/nokia/sand
 
 -include device/nokia/lumia_8930-common/BoardConfigCommon.mk
 
@@ -31,12 +31,12 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # Healthd
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BACKLIGHT_PATH := /sys/class/backlight/msmfb_bl0/brightness
-PRODUCT_DEVICE := zeal
-PRODUCT_NAME := lineage_zeal
-PRODUCT_MODEL := zeal
+PRODUCT_DEVICE := sand
+PRODUCT_NAME := lineage_sand
+PRODUCT_MODEL := sand
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := zeal_cmcc,zeal_row
+TARGET_OTA_ASSERT_DEVICE := sand_cmcc,sand_row
 
 # Partitions informations
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 6149881344
@@ -48,16 +48,18 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 QCOM_FM_ENABLED := true
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := lineage_zeal_defconfig
+TARGET_KERNEL_CONFIG := lineage_sand_defconfig
 
 # Vendor platform
-BOARD_VENDOR_PLATFORM := zeal
+BOARD_VENDOR_PLATFORM := sand
 
 # Audio configurations
 BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_ENABLED_HWDEP_CAL := true
 BOARD_USES_FLUENCE_INCALL := true
-BOARD_USES_LEGACY_ALSA_AUDIO := true
+BOARD_USES_LEGACY_ALSA_AUDIO := 
+Optional extended description
+true
 BOARD_USES_SEPERATED_AUDIO_INPUT := true
 BOARD_USES_SEPERATED_VOICE_SPEAKER_MIC := true
 QCOM_CSDCLIENT_ENABLED := false
@@ -92,4 +94,4 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 BOARD_RIL_CLASS := ../../../$(DEVICE_PATH)/ril/
 
 # Board device vendor
--include vendor/nokia/zeal/BoardConfigVendor.mk
+-include vendor/nokia/sand/BoardConfigVendor.mk
