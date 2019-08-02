@@ -25,8 +25,8 @@ TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Device identifications
-PRODUCT_DEVICE := zeal
-PRODUCT_NAME := lineage_zeal
+PRODUCT_DEVICE := sand
+PRODUCT_NAME := lineage_sand
 PRODUCT_BRAND := Nokia
 PRODUCT_MANUFACTURER := Nokia
-PRODUCT_MODEL := zeal
+PRODUCT_MODEL := sand
