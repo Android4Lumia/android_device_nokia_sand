@@ -18,7 +18,7 @@
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 
 # Inherit device configurations
-$(call inherit-product, device/nokia/zeal/device.mk)
+$(call inherit-product, device/nokia/sand/device.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 800
