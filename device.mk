@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/fstab.qcom:root/fstab.qcom \
     $(LOCAL_PATH)/rootdir/fstab.qcom:recovery/root/fstab.qcom \
     $(LOCAL_PATH)/rootdir/ueventd.qcom.rc:root/ueventd.qcom.rc
+    $(LOCAL_PATH)/rootdir/init.rle:root/initlogo.rle
 
 # TWRP (optional)
 ifeq ($(RECOVERY_VARIANT),twrp)
