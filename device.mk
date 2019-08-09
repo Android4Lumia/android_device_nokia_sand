@@ -134,6 +134,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.rle:root/initlogo.rle
 
 # TWRP (optional)
+RECOVERY_VARIANT := twrp
 ifeq ($(RECOVERY_VARIANT),twrp)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
